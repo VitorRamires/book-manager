@@ -9,6 +9,7 @@ export const MessageStyle = styled.div`
     width: 150px;
     height: auto;
     margin-bottom: 40px;
+    color: #307C92;
   }
 
   span{

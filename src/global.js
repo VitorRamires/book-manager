@@ -24,9 +24,12 @@ export const GlobalCss = createGlobalStyle`
 
 export const Center = styled.div`
   width: 1360px;
+  height: 600px;
   max-width: 90%;
   margin: 75px auto;
   background-color: #0d2025;
   padding: 25px;
   border-radius: 10px;
+
 `;
+

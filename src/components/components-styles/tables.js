@@ -136,6 +136,11 @@ export const TableBox = styled.table`
   border-collapse: collapse;
   font-family:'inter';
 
+  @media screen and (max-width:900px) {
+    width: 800px;
+  }
+
+
   table,
   th,
   td {
