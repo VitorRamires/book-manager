@@ -7,6 +7,9 @@ import { ContextGlobal } from "./context/globalContext.jsx";
 import { ContextAuthors } from "./context/globalContextAuthors.jsx";
 
 export function App() {
+
+  
+
   return (
     <ContextAuthors>
       <ContextGlobal>

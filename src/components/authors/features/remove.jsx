@@ -29,9 +29,12 @@ export function Remove({ authorIdRemove }) {
   );
 
   useEffect(() => {
-    getBooks.find((book) => book.authorId == actualItem.authorId)
-      ? setExistedAuthor(true)
-      : setExistedAuthor(false);
+    if (getBooks) {
+      getBooks.find((book) => book.authorId == actualItem.authorId)
+        ? setExistedAuthor(true)
+        : setExistedAuthor(false);
+      return;
+    }
   }, [actualItem.authorId, existedAuthor, getBooks, setExistedAuthor]);
 
   function filterArray() {
